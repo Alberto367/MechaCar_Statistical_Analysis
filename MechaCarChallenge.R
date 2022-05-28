@@ -18,7 +18,7 @@ AWD = cor(mechacar$AWD,mechacar$mpg)
 
 # Deliverable 2: Create Visualizations for the Trip Analysis
 sCoils <- read.csv("Suspension_Coil.csv")
-summerize_sCoils <- sCoils %>% summarise(Mean = mean(PSI),
+summarize_sCoils <- sCoils %>% summarise(Mean = mean(PSI),
                                          Median = median(PSI),
                                          Varience = var(PSI),
                                          SD = sd(PSI))
@@ -27,4 +27,26 @@ lotSummary <- sCoils %>% group_by(Manufacturing_Lot) %>%
                   Median = median(PSI),
                   Varience = var(PSI),
                   SD = sd(PSI))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
